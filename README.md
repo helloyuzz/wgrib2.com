@@ -10,5 +10,6 @@ http://www.wgrib2.com
 
 - RubyInstaller.org
 - gem install jekyll
+- bundle add webrick
 - bundle install
 - bundle exec jekyll serve

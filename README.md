@@ -1,5 +1,3 @@
-# http://www.wgrib2.com
-
 # 成都君安信息科技有限公司
 
 官方网站（采用Jekyll构建）：

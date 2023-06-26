@@ -3,13 +3,13 @@ repository: helloyuzz/wgrib2.com
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: 成都军安科技
+topnav_title: wgrib2.com
 # this appears on the top navigation bar next to the home button
 
-site_title: 成都军安科技
+site_title: cd-jun-an
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-company_name: 成都君安信息科技有限公司
+company_name: wgrib2.com
 # this appears in the footer
 
 github_editme_path: 

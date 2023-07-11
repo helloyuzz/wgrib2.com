@@ -4,13 +4,7 @@
 
 <body class="pt-3">
   <div class="container-fluid">
-    <div class="row">
-      <div class="col">
-        <div class="alert alert-primary p-1 rounded-0" role="alert">
-          <a href="/"> <span class="fw-bold"> {{ site.title }}</span></a>
-        </div>
-      </div>
-    </div>
+    {% include top.html %}
     <div class="col-2">
       <ul class="list-group rounded-0">
         {%- for post in site.posts -%}

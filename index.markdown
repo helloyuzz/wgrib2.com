@@ -4,3 +4,8 @@
 
 layout: home
 ---
+
+<!-- <p>{{ page.date }} - Written by {{ page.author }}</p>
+
+{{ content }}
+{{ site.description }} -->

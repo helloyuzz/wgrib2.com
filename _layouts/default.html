@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
+{% include head.html %}
+
+<body class="pt-3">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <div class="alert alert-primary p-1 rounded-0" role="alert">
+          <a href="/"> <span class="fw-bold"> {{ site.title }}</span></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-2">
+      <ul class="list-group rounded-0">
+        {%- for post in site.posts -%}
+        <li class="list-group-item list-group-item-action p-1"><a class="post-link"
+            href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>
+        {%- endfor -%}
+      </ul>
+    </div>
+    <div class="col">
+
+    </div>
+  </div>
+
+  {%- include footer.html -%}
+  {% include script.html %}
+</body>
+
+</html>

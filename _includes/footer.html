@@ -1,0 +1,36 @@
+<div class="container-fluid mt-3">
+  <div class="rows">
+    <div class="col alert alert-primary p-1 rounded-0">      
+      <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+      &copy;{{ site.author | escape }} {{ site.copyright }}
+    </div>
+  </div>
+</div>
+
+<!-- <footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  <div class="wrapper">
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">
+            {%- if site.author -%}
+              
+            {%- else -%}
+              {{ site.title | escape }}
+            {%- endif -%}
+            </li>
+            {%- if site.email -%}
+            <li></li>
+            {%- endif -%}
+        </ul>
+      </div>      
+
+      <div class="footer-col footer-col-3">
+        <p>{{- site.description | escape -}}</p>
+      </div>
+    </div>
+
+  </div>
+</footer> -->

@@ -7,7 +7,7 @@ categories: post
 
 https://marketplace.visualstudio.com/items?itemName=wgrib2com.ext666
 
-![]({{ site.cdn_url }}/2023-07-11-18-25-35.png)
+![]({{ site.cdn_url }}/images/2023-07-11-18-25-35.png)
 
 **Configuraion Wizard**
 <hr>

@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "SyncFolder插件"
+title:  "Visual Studio SyncFolder 插件"
 date:   2023-07-11 15:22:12 +0800
 categories: post
 ---
 
 https://marketplace.visualstudio.com/items?itemName=wgrib2com.ext666
 
-![](http://cdn.wgrib2.com/images/2023-07-11-18-25-35.png)
+![]({{ site.cdn_url }}/2023-07-11-18-25-35.png)
 
 **Configuraion Wizard**
 <hr>

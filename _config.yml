@@ -31,6 +31,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  helloyuzz
 company_name: 成都君安信息技术有限公司
+cdn_url: http://cdn.wgrib2.com/images
 
 # Build settings
 # theme: minima

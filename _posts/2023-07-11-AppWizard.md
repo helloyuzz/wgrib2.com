@@ -1,5 +1,7 @@
 ---
 layout: post
+title: 开源向导
+categories: post
 ---
 # App Wizard
 
@@ -7,4 +9,3 @@ layout: post
 - bundle install
 - bundle exec jekyll serve
 ```
-![](/images/2023-07-11-18-23-04.png)

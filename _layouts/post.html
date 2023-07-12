@@ -14,9 +14,9 @@
           {%- endfor -%}
         </ul>
       </div>
-      <div class="col bg-light">
+      <div class="col bg-light border-1 border-dark  shadow">
         <h3>{{ page.title }}</h3>
-        {{ page.date }}
+        {{ page.date | date: "%Y-%m-%d %H:%M" }}
         <hr>
         <div class="post-content e-content" itemprop="articleBody">
           {{ content }}

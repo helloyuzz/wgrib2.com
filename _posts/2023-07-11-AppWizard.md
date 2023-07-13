@@ -12,3 +12,7 @@ categories: post
 
 ### 链接
 [https://zh.glosbe.com/](https://zh.glosbe.com/)
+
+### 配置
+- bundle config mirror.https://rubygems.org https://gems.ruby-china.com
+- bundle config mirror.https://rubygems.org https://mirrors.tuna.tsinghua.edu.cn/rubygems/

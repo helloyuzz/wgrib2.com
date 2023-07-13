@@ -9,3 +9,6 @@ categories: post
 - bundle install
 - bundle exec jekyll serve
 ```
+
+### 链接
+[https://zh.glosbe.com/](https://zh.glosbe.com/)

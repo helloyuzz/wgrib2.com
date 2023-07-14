@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Visual Studio SyncFolder Plugin"
-date:   2023-07-11 15:22:12 +0800
+title: Visual Studio SyncFolder Plugin
+date: 2023-07-11 15:22:12 +0800
 categories: Post
 ---
 

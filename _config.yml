@@ -32,9 +32,9 @@ twitter_username: jekyllrb
 github_username:  helloyuzz
 company_name: 成都君安信息技术有限公司
 cdn_url: https://cdn.wgrib2.com
-permalink: /:categories/:year-:month-:day/:title:output_ext
+permalink: :year-:month-:day/:title:output_ext
 
-# Build settings
+# Build settings /:categories/
 # theme: minima
 plugins:
   - jekyll-feed

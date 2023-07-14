@@ -1,6 +1,6 @@
 <ul class="list-group rounded-0">
     {% assign articles = site.posts | where: 'fixtop',true  %}
-    {% assign defaults = site.posts | where: 'fixtop',nil %}
+    {% assign defaults = site.posts | where: 'fixtop',false %}
     {% assign allArticles = articles | concat: defaults %}
     {% for post in allArticles %}
     <li class="list-group-item list-group-item-action p-1">

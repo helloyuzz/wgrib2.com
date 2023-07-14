@@ -3,6 +3,7 @@ layout: post
 title: Visual Studio SyncFolder Plugin
 date: 2023-07-11 15:22:12 +0800
 categories: Post
+fixtop: false
 ---
 
 https://marketplace.visualstudio.com/items?itemName=wgrib2com.ext666

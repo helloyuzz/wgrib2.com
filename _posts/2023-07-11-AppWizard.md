@@ -2,6 +2,7 @@
 layout: post
 title: How to install?
 categories: Post
+fixtop: false
 ---
 ### App Wizard
 

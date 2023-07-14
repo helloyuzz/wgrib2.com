@@ -1,6 +1,6 @@
 ---
 layout: post
-title: App wizard
+title: How to install?
 categories: Post
 ---
 ### App Wizard

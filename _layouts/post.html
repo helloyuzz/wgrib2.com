@@ -16,7 +16,7 @@
           <img src="/assets/piggy.svg" class="fw-bold text-danger" style="width: 22px;" title="该课题已置顶">
           {% endif %}
         </h3>
-        {{ page.date | date: "%Y-%m-%d %H:%M" }}
+        {{ page.date | date: "%Y-%m-%d %A" }}
         {% if page.fixtop == true %}
         <span class="badge text-bg-success rounded-0">置顶</span>
         {% endif %}

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: App wizard
-categories: post
+categories: Post
 ---
 ### App Wizard
 

@@ -1,0 +1,15 @@
+<ul class="list-group rounded-0">
+    {% for post in site.posts | sort: 'fixtop'  %}
+    <li class="list-group-item list-group-item-action p-1">
+        {% assign className = 'primary' %}
+        {% if page.title == post.title %}
+        {% assign className = 'danger' %}
+        {% endif %}
+        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        <span class="badge text-bg-{{ className }} rounded-0">{{ post.date | date: "%m/%d/%Y" }}</span>
+        {% if post.fixtop == true %}
+        <span class="badge text-bg-danger rounded-0">Fixed</span>
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>

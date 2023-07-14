@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 开源向导
+title: App wizard
 categories: post
 ---
 ### App Wizard
@@ -9,9 +9,6 @@ categories: post
 - bundle install
 - bundle exec jekyll serve
 ```
-
-### 链接
-[https://zh.glosbe.com/](https://zh.glosbe.com/)
 
 ### 配置
 - bundle config mirror.https://rubygems.org https://gems.ruby-china.com

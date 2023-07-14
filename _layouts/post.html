@@ -10,8 +10,16 @@
         {% include articles.html %}
       </div>
       <div class="col bg-light p-3 m-0 ms-2">
-        <h3>{{ page.title }}</h3>
+        <h3>
+          {{ page.title }}
+          {% if page.fixtop == true %}
+          <img src="/assets/piggy.svg" class="fw-bold text-danger" style="width: 22px;" title="该课题已置顶">
+          {% endif %}
+        </h3>
         {{ page.date | date: "%Y-%m-%d %H:%M" }}
+        {% if page.fixtop == true %}
+        <span class="badge text-bg-success rounded-0">置顶</span>
+        {% endif %}
         <hr>
         <div class="">
           {{ content }}

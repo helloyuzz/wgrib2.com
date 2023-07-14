@@ -1,15 +1,18 @@
 <ul class="list-group rounded-0">
-    {% for post in site.posts | sort: 'fixtop'  %}
+    {% assign articles = site.posts | where: 'fixtop',true  %}
+    {% assign defaults = site.posts | where: 'fixtop',null | sort: 'date' | reverse %}
+    {% assign allArticles = articles | concat: defaults %}
+    {% for post in allArticles %}
     <li class="list-group-item list-group-item-action p-1">
         {% assign className = 'primary' %}
         {% if page.title == post.title %}
-        {% assign className = 'danger' %}
+            {% assign className = 'danger' %}
         {% endif %}
         <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        <span class="badge text-bg-{{ className }} rounded-0">{{ post.date | date: "%m/%d/%Y" }}</span>
         {% if post.fixtop == true %}
-        <span class="badge text-bg-danger rounded-0">Fixed</span>
+        <img src="/assets/piggy.svg" class="float-end" title="该课题已置顶">
         {% endif %}
+        <span class="badge text-bg-{{ className }} rounded-0">{{ post.date | date: "%m/%d/%Y" }}</span>
     </li>
     {% endfor %}
 </ul>

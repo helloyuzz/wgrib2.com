@@ -10,17 +10,26 @@
         {% include articles.html %}
       </div>
       <div class="col bg-light p-3 m-0 ms-2">
-        <h3>
+        <h3 class="m-0 mb-2">
           {{ page.title }}
           {% if page.fixtop == true %}
           <img src="/assets/piggy.svg" class="fw-bold text-danger" style="width: 22px;" title="该课题已置顶">
           {% endif %}
         </h3>
+          <!-- {% if page.tips %}
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb m-0">
+              {% for tip in page.tips %}
+              <li class="breadcrumb-item active fw-bold" aria-current="page">{{ tip }}</li>
+              {% endfor %}
+            </ol>
+          </nav>
+          {% endif %} -->
         {{ page.date | date: "%Y-%m-%d %A" }}
         {% if page.fixtop == true %}
         <span class="badge text-bg-success rounded-0">置顶</span>
         {% endif %}
-        <hr>
+        <hr class="mt-2 mb-3">
         <div class="">
           {{ content }}
         </div>

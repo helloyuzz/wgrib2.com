@@ -1,0 +1,8 @@
+March 1, 2023:
+
+   wgrib2 v3.1.2
+
+netcdf3
+jasper
+no aec .. forgot to enable, linux box at work cannot compile AEC
+          because cmake is not installed

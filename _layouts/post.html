@@ -4,6 +4,7 @@
 
 <body class="pt-3">
   <div class="container-fluid">
+
     {% include top.html %}
     <div class="row mt-1 p-0 m-0">
       <div class="col-2 p-0 m-0">
@@ -30,7 +31,7 @@
         <span class="badge text-bg-success rounded-0">置顶</span>
         {% endif %}
         <hr class="mt-2 mb-3">
-        <div class="">
+        <div showContent="true" class="">
           {{ content }}
         </div>
       </div>

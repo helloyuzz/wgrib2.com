@@ -1,0 +1,148 @@
+---
+title: Who is ECMWF？
+fixtop: false
+layout: post
+---
+
+## 是一个国际性组织
+**European Centre for Medium-Range Weather Forecasts**，欧洲中期天气预报中心，简称 **ECMWF**，是一个包括34个国家支持的国际性组织。
+
+是一个国际性天气预报研究和业务机构。1975年ECMWF正式成立，总部设在英国。
+
+### 目标
+- 为中期天气预报的数值方法发展
+- 准备分发中期天气预报到会员国
+- 进行科学和技术研究，改善天气预报
+- 搜集和储存适当的气象数据
+
+### 工作和计划
+- 欧洲中期天气预报中心自1979年8月1日开展运行制作中期天气预报。
+- 欧洲中期天气预报中心运行两个“重分析”（re-analysis）计划。
+- 首个ECMWF re-analysis (ERA-15)重分析计划由1978年12月至1994年2月产生。
+- ERA-40计划由1957年12月至2002年8月产生。
+- 欧洲中期天气预报中心的历史记录于书本《Medium-Range Weather Prediction - the European Approach》，由Austin Woods撰写，2005年发行。
+
+### 会员
+- 欧洲中期天气预报中心为18个欧洲国家：奥地利、比利时、丹麦、芬兰、法国、德国、希腊、爱尔兰共和国、意大利、卢森堡、荷兰、挪威、葡萄牙、西班牙、瑞典、瑞士、土耳其、英国。
+- 欧洲中期天气预报中心与以下国家有合作协议：克罗地亚、捷克、爱沙尼亚、冰岛、立陶宛、匈牙利、摩洛哥、罗马尼亚、塞尔维亚、斯洛伐克。
+
+### 所在地
+- 欧洲中期天气预报中心位于英格兰雷丁Shinfield Park。与英国气象局教学校舍共享地方直至2002年夏天。英国气象局总部在2003年由布拉克内尔迁至埃克塞特。过往校舍用地，现变为住宅用途。
+
+### ECMWF官方网站📌
+[http://www.ecmwf.int/](http://www.ecmwf.int/){:target="_blank"}
+
+## ECMWF Github📌
+[https://github.com/ecmwf](https://github.com/ecmwf){:target="_blank"}
+
+### 全球各地官方气象机构
+<table cellspacing="0" class="table table-bordered table-hover">
+	<tr>
+		<td class="fs-4">非洲🌍</td>
+		<td>
+		<ul>
+			<li><a href="https://www.inam.gov.mz/index.php/pt/">莫桑比克国家气象局</a></li>
+			<li>南非气象局</li>
+		</ul>
+		</td>
+		<td class="fs-4">北美洲🌎</td>
+		<td>
+		<ul>
+			<li>加勒比气象与水文研究所</li>
+			<li>加拿大气象局</li>
+			<li>哥斯达黎加国家气象研究所</li>
+			<li>危地马拉国家地震、火山、气象和水文研究所</li>
+			<li>墨西哥国家气象服务局</li>
+			<li>美国国家气象局</li>
+		</ul>
+		</td>
+		<td class="fs-4">大洋洲🗺️</td>
+		<td>
+		<ul>
+			<li>澳大利亚气象局</li>
+			<li>斐济气象局</li>
+			<li>新西兰气象局</li>
+			<li>汤加气象局</li>
+			<li>图瓦卢气象局</li>
+		</ul>
+		</td>
+	</tr>
+	<tr>
+		<td class="fs-4">亚洲🌏</td>
+		<td>
+		<ul>
+			<li>阿富汗气象局</li>
+			<li><a href="http://live.bmd.gov.bd/">孟加拉国气象部</a></li>
+			<li><a href="http://www.nmc.cn/">中国气象局</a></li>
+			<li><a href="https://www.hko.gov.hk/en/index.html">中国香港天文台</a></li>
+			<li><a href="http://www.smg.gov.mo/">中国澳门地球物理暨气象局</a></li>
+			<li><a href="https://www.cwb.gov.tw/V8/C/">中国台湾交通部中央气象局</a><br><a href="https://south.cwb.gov.tw/">中国台湾南区气象中心</a></li>
+			<li><a href="http://www.imd.gov.in/">印度气象局</a></li>
+			<li><a href="https://www.bmkg.go.id/">印度尼西亚气象、气候和地球物理局</a></li>
+			<li>以色列气象局</li>
+			<li>老挝自然资源与环境部气象水文厅</li>
+			<li><a href="http://www.met.gov.my/">马来西亚气象局</a></li>
+			<li><a href="http://www.pagasa.dost.gov.ph/">菲律宾大气地球物理和天文服务管理局</a></li>
+			<li>俄罗斯水文气象中心</li>
+			<li><a href="http://www.pmd.gov.pk/">巴基斯坦气象部</a></li>
+			<li><a href="https://www.weather.go.kr/w/index.do">韩国气象厅</a></li>
+			<li><a href="http://www.weather.gov.sg/">新加坡气象局</a></li>
+			<li><a href="https://www.tmd.go.th/">泰国气象局</a></li>
+			<li><a href="http://www.mgm.gov.tr/">土耳其国家气象局</a></li>
+			<li>
+			<a href="http://science.gov.tm/organisations/seismic_institute/">土库曼斯坦科学院地震学及大气物理研究所</a></li>
+			<li><a href="https://www.korea-dpr.com/">朝鲜民主主义人民共和国气象水文局</a></li>
+			<li><a href="http://www.nchmf.gov.vn/">越南中央水文气象预报中心</a></li>
+		</ul>
+		</td>
+		<td class="fs-4">欧洲🗺️</td>
+		<td>
+		<ul>
+			<li>奥地利气象与地球物理中央研究院</li>
+			<li>比利时皇家气象研究所</li>
+			<li>捷克水文气象研究所</li>
+			<li>克罗地亚气象和水文局</li>
+			<li>丹麦气象研究所</li>
+			<li>爱沙尼亚气象局</li>
+			<li>芬兰气象研究所</li>
+			<li>法国气象局</li>
+			<li>德国气象局</li>
+			<li>希腊国家气象局</li>
+			<li>冰岛气象局</li>
+			<li>爱尔兰气象局</li>
+			<li>意大利气象局</li>
+			<li>拉脱维亚环境、地质与气象中心</li>
+			<li>立陶宛水文气象局</li>
+			<li>黑山水文气象研究所</li>
+			<li>皇家荷兰气象研究所</li>
+			<li>挪威气象研究所</li>
+			<li>葡萄牙海洋与大气研究所</li>
+			<li>罗马尼亚国家气象局</li>
+			<li>俄罗斯水文气象中心</li>
+			<li>塞尔维亚共和国水文气象研究所</li>
+			<li>斯洛文尼亚环境署</li>
+			<li>西班牙国家气象局</li>
+			<li>瑞典气象和水文研究所</li>
+			<li>瑞士联邦气象和气候办公室</li>
+			<li>英国气象局</li>
+		</ul>
+		</td>
+		<td class="fs-4">南美洲🗺️</td>
+		<td>
+		<ul>
+			<li>巴西气象预报和气候研究中心</li>
+			<li>哥伦比亚水文、气象与环境研究所</li>
+			<li>厄瓜多尔国家气象与水文研究所</li>
+			<li>智利气象局</li>
+		</ul>
+		</td>
+	</tr>
+</table>
+
+### 数据来源
+- 互联网
+
+### 数据纠正
+- **中国**台湾交通部中央气象局台湾南区气象中心
+- **中国**香港天文台
+- **中国**澳门地球物理暨气象局

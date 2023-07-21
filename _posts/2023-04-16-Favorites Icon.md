@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Favorites Icon Files
+title: Favorite.ico
 categories: Post
 fixtop: false
 ---

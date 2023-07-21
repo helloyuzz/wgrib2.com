@@ -10,7 +10,7 @@ fixtop: false
 2023.4.16
 
 ### 链接
-[https://zh.glosbe.com/](https://zh.glosbe.com/)
+[https://zh.glosbe.com/](https://zh.glosbe.com/){:target="_blank"}
 
 ### 作者
 yudz@wgrib2.com

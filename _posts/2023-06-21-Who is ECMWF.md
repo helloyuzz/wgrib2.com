@@ -7,6 +7,8 @@ layout: post
 ## 是一个国际性组织
 **European Centre for Medium-Range Weather Forecasts**，欧洲中期天气预报中心，简称 **ECMWF**，是一个包括34个国家支持的国际性组织。
 
+![](/images/2023-07-21-18-13-26.png)
+
 是一个国际性天气预报研究和业务机构。1975年ECMWF正式成立，总部设在英国。
 
 ### 目标

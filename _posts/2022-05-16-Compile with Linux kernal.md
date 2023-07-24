@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Build with Linux-Ferora
+title: mysql.local
 fixtop: false
 categories: Post
 # Climate Prediction Center(ECMWF)

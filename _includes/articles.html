@@ -5,10 +5,14 @@
     {% for post in allArticles %}
     <li class="list-group-item list-group-item-action p-1">
         {% assign className = 'primary' %}
+        {% assign fwbold = ''%}
         {% if page.title == post.title %}
             {% assign className = 'danger' %}
         {% endif %}
-        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        {% if post.fixtop == true %}
+            {% assign fwbold='fw-bold text-success' %}
+        {% endif %}
+        <a class="post-link {{ fwbold }}" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         {% if post.fixtop == true %}
         <img src="/assets/piggy.svg" class="float-end" title="该课题已置顶">
         {% endif %}

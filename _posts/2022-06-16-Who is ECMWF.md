@@ -24,16 +24,18 @@ layout: post
 - ERA-40计划由1957年12月至2002年8月产生。
 - 欧洲中期天气预报中心的历史记录于书本《Medium-Range Weather Prediction - the European Approach》，由Austin Woods撰写，2005年发行。
 
+## ECMWF.int-(Security):📌
+  - [https://www.ecmwf.int/](https://www.ecmwf.int/){:target="_blank"}
+  - 账号：yudz@wgrib2.com
+  - 密码：笔记本@@番号
+
 ### 会员
 - 欧洲中期天气预报中心为18个欧洲国家：奥地利、比利时、丹麦、芬兰、法国、德国、希腊、爱尔兰共和国、意大利、卢森堡、荷兰、挪威、葡萄牙、西班牙、瑞典、瑞士、土耳其、英国。
 - 欧洲中期天气预报中心与以下国家有合作协议：克罗地亚、捷克、爱沙尼亚、冰岛、立陶宛、匈牙利、摩洛哥、罗马尼亚、塞尔维亚、斯洛伐克。
 
 ### 所在地
 - 欧洲中期天气预报中心位于英格兰雷丁Shinfield Park。与英国气象局教学校舍共享地方直至2002年夏天。英国气象局总部在2003年由布拉克内尔迁至埃克塞特。过往校舍用地，现变为住宅用途。
-
-### ECMWF官方网站📌
-[http://www.ecmwf.int/](http://www.ecmwf.int/){:target="_blank"}
-
+  
 ## ECMWF Github📌
 [https://github.com/ecmwf](https://github.com/ecmwf){:target="_blank"}
 

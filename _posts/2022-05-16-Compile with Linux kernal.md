@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Climate Prediction Center(ECMWF)
-fixtop: true
+title: Build with Linux-Ferora
+fixtop: false
 categories: Post
+# Climate Prediction Center(ECMWF)
 ---
 <!--TOC-->
   - [Development Wizard](#development-wizard)
@@ -15,7 +16,7 @@ categories: Post
   - [ECMWF.int-(Security):](#ecmwf.int-security)
 <!--/TOC-->
 
-## Development Wizard
+### Development Wizard
   - **Install Mysql On Fedora 38**
     - dnf upgrade
     - dnf update    
@@ -104,8 +105,3 @@ categories: Post
   - [https://www.cpc.ncep.noaa.gov/products/wesley/wgrib2/index.html](https://www.cpc.ncep.noaa.gov/products/wesley/wgrib2/index.html){:target="_blank"}
 - **wd51we sources**:📌
   - [https://ftp.cpc.ncep.noaa.gov/wd51we/](https://ftp.cpc.ncep.noaa.gov/wd51we/){:target="_blank"}
-
-## ECMWF.int-(Security):
-  - [https://www.ecmwf.int/](https://www.ecmwf.int/){:target="_blank"}
-  - 账号：yudz@wgrib2.com
-  - 密码：笔记本@@番号

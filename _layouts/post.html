@@ -17,18 +17,9 @@
           <img src="/assets/piggy.svg" class="fw-bold text-danger" style="width: 22px;" title="该课题已置顶">
           {% endif %}
         </h3>
-          <!-- {% if page.tips %}
-          <nav aria-label="breadcrumb">
-            <ol class="breadcrumb m-0">
-              {% for tip in page.tips %}
-              <li class="breadcrumb-item active fw-bold" aria-current="page">{{ tip }}</li>
-              {% endfor %}
-            </ol>
-          </nav>
-          {% endif %} -->
         {{ page.date | date: "%Y-%m-%d %A" }}
         {% if page.fixtop == true %}
-        <span class="badge text-bg-success rounded-0">置顶</span>
+        <span class="badge text-bg-success rounded-0 fs-8">FixedTop</span>
         {% endif %}
         <hr class="mt-2 mb-3">
         <div showContent="true" class="">

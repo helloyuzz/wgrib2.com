@@ -1,16 +1,24 @@
 ---
-title: RFC-WMO Office Note 388
+title: NCEP Office Note 388
 layout: post
 fixtop: true
 ---
+<!-- TOC -->
 
+- [世界气象组织-WMO（World Meteorological Organisation）](#%E4%B8%96%E7%95%8C%E6%B0%94%E8%B1%A1%E7%BB%84%E7%BB%87-wmoworld-meteorological-organisation)
+- [Document of Grib1 Specification for Programing](#document-of-grib1-specification-for-programing)
+- [Document of Grib2 Specification for Programing](#document-of-grib2-specification-for-programing)
+
+<!-- /TOC -->
 ### 世界气象组织-WMO（World Meteorological Organisation）
 Meteorological
 
-### Grib1 Specification
-- NCEP codes for decoding and encoding data in GRIB1 format
+<a class="btn btn-sm btn-primary shadow" href="https://doc.wgrib2.com" target="_blank">Open https://doc.wgrib2.com</a>
 
-### Document
+### Document of Grib1 Specification for Programing
+<div class="alert alert-secondary p-1 rounded-0" role="alert">
+    NCEP codes for decoding and encoding data in GRIB1 format
+</div>
 - Section 0- [Indicator Section (IS)](https://www.nco.ncep.noaa.gov/pmb/docs/on388/section0.html){:target="_blank"} - 标志定义
 - Section 1- [Product Definition Section (PDS)](https://www.nco.ncep.noaa.gov/pmb/docs/on388/section1.html){:target="_blank"} - 产品定义章节
     - Table 0- [National/International Originating Centers](https://www.nco.ncep.noaa.gov/pmb/docs/on388/table0.html){:target="_blank"} - 国际化标识区域
@@ -39,4 +47,8 @@ Meteorological
 
 
 
-### Grib2 Specification
+### Document of Grib2 Specification for Programing
+
+<div class="alert alert-secondary p-1 rounded-0" role="alert">
+    NCEP codes for decoding and encoding data in GRIB1 format
+</div>

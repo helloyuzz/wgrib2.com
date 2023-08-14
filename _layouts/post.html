@@ -13,13 +13,11 @@
       <div class="col bg-light p-3 m-0 ms-2">
         <h3 class="m-0 mb-2">
           {{ page.title }}
-          {% if page.fixtop == true %}
-          <img src="/assets/piggy.svg" class="fw-bold text-danger" style="width: 22px;" title="该课题已置顶">
-          {% endif %}
         </h3>
         {{ page.date | date: "%Y-%m-%d %A" }}
         {% if page.fixtop == true %}
         <span class="badge text-bg-success rounded-0 fs-8">置顶</span>
+        <img src="/assets/piggy.svg" class="fw-bold text-danger" style="width: 22px;" title="该课题已置顶">
         {% endif %}
         <hr class="mt-2 mb-3">
         <div showContent="true" class="">

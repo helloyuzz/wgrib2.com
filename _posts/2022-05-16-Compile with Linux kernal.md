@@ -1,6 +1,6 @@
 ---
 layout: post
-title: mysql.local
+title: Compile with Linux (mysql.localdb)
 fixtop: false
 categories: Post
 # Climate Prediction Center(ECMWF)

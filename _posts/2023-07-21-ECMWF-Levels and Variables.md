@@ -1,5 +1,5 @@
 ---
-title: Levels and Variables(ECMWF)
+title: ECMWF-Levels and Variables
 layout: post
 fixtop: false
 ---

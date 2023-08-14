@@ -1,5 +1,5 @@
 ---
-title: Open Data Format(ECMWF)
+title: ECMWF-Open Data Format
 fixtop: false
 layout: post
 ---

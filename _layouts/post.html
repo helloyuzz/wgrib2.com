@@ -1,39 +1,39 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: " en" }}">
-{% include head.html %}
-
-<body class="pt-3">
-  <div class="container-fluid">
-
-    {% include top.html %}
-    <div class="row mt-1 p-0 m-0">
-      <div class="col-2 p-0 m-0">
-        {% include articles.html %}
-      </div>
-      <div class="col bg-light p-3 m-0 ms-2">
-        <h3 class="m-0 mb-2">
-          {{ page.title }}
-        </h3>
-        {{ page.date | date: "%Y-%m-%d %A" }}
+<html lang="{{ page.lang | default: site.lang | default: " en " }}">
+    {% include head.html %}
+    <body class="p-1">
+        <div class="container-fluid p-0 m-0">
+            {% include top.html %}
+            <div class="row mt-1 p-0 m-0">
+                <div class="col-2 p-0 m-0">
+                    {% include articles.html %}
+                </div>
+                <div class="col bg-light p-3 m-0 ms-2">
+                    <h3 class="m-0 mb-2">
+                        {{ page.title }}
+                    </h3>
+                    {{ page.date | date: "%Y-%m-%d %A" }}
         {% if page.fixtop == true %}
-        <span class="badge text-bg-success rounded-0 fs-8">置顶</span>
-        <img src="/assets/piggy.svg" class="fw-bold text-danger" style="width: 22px;" title="该课题已置顶">
-        {% endif %}
-        <hr class="mt-2 mb-3">
-        <div showContent="true" class="">
-          {{ content }}
+                    <span class="badge text-bg-success rounded-0 fs-8">置顶</span>
+                    <img
+                        src="/assets/piggy.svg"
+                        class="fw-bold text-danger"
+                        style="width: 22px;"
+                        title="该课题已置顶"
+                    >
+                    {% endif %}
+                    <hr class="mt-2 mb-3">
+                    <div showContent="true" class="">
+                        {{ content }}
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-  </div>
-  {%- include footer.html -%}
+    {%- include footer.html -%}
   {% include script.html %}
 </body>
-
 </html>
-
-
 <!-- layout: default -->
 <!-- <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: About Favorite.ico
+title: Favorite.ico
 categories: Post
 fixtop: false
 ---
@@ -18,7 +18,7 @@ fixtop: false
 <img src="/assets/favicon.png">
 
 ### 设计日期
-2022.4.16
+2016.4.16
 
 ### 链接
 [https://zh.glosbe.com/](https://zh.glosbe.com/){:target="_blank"}

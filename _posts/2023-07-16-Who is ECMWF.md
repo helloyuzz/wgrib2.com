@@ -1,5 +1,5 @@
 ---
-title: 欧洲中期天气预报中心-ECMWF
+title: ECMWF.int
 fixtop: false
 layout: post
 ---

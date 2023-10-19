@@ -10,7 +10,7 @@ fixtop: true
 - [NCEP Grib2 Documentation Specification](#ncep-grib2-documentation-specification)
 
 <!-- /TOC -->
-### 世界气象组织-WMO（World Meteorological Organisation）
+### World Meteorological Organisation-WMO
 Meteorological
 
 <a class="btn btn-sm btn-primary shadow" href="https://doc.wgrib2.com" target="_blank">Open https://doc.wgrib2.com</a>

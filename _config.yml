@@ -1,7 +1,7 @@
 # @Author: Your name
 # @Date:   2023-07-12 21:42:33
 # @Last Modified by:   Your name
-# @Last Modified time: 2023-10-19 09:51:52
+# @Last Modified time: 2023-10-19 10:05:25
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -34,7 +34,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  helloyuzz
-company_name: ECMWF & GFS #成都君安信息技术有限公司
+company_name: ECMWF & GFS & WMO #成都君安信息技术有限公司
 cdn_url: https://cdn.wgrib2.com
 permalink: :year-:month-:day/:title:output_ext
 

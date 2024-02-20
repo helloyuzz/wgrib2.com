@@ -3,8 +3,8 @@
     {% assign defaults = site.posts | where: 'fixtop',false %}
     {% assign allArticles = articles | concat: defaults %}
     {% for post in allArticles %}
-    <li class="list-group-item list-group-item-action p-1">
-        {% assign className = 'info' %}
+    <li class="list-group-item list-group-item-action p-1 fs-8">
+        {% assign className = 'primary' %}
         {% assign fwbold = ''%}
         {% if page.title == post.title %}
             {% assign className = 'danger' %}
@@ -17,7 +17,7 @@
             {% assign new_blank = 'target=\"_blank\"' %}
             <a class="post-link fw-bold text-primary" href="{{ post.external_url | absolute_url }}" {{ new_blank }}>{{ post.title | escape }} 📖</a>
         {% else %}
-            <span class="badge text-bg-{{ className }} rounded-0">{{ post.date | date: "%y-%m-%d" }} </span>
+            <span class="badge text-bg-{{ className }} rounded-1 p-1 me-1 fw-normal">{{ post.date | date: "%m/%d/%Y" }} </span>
             <a class="post-link {{ fwbold }}" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
             {% if post.fixtop == true %}
             <img src="/assets/piggy.svg" class="float-end" title="该课题已置顶">

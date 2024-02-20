@@ -17,7 +17,7 @@
             {% assign new_blank = 'target=\"_blank\"' %}
             <a class="post-link fw-bold text-primary" href="{{ post.external_url | absolute_url }}" {{ new_blank }}>{{ post.title | escape }} 📖</a>
         {% else %}
-            <span class="badge text-bg-{{ className }} rounded-1 p-1 me-1 fw-normal">{{ post.date | date: "%m/%d/%Y" }} </span>
+            <span class="badge text-bg-{{ className }} rounded-1 p-1 me-1 fw-normal">&nbsp; </span>
             <a class="post-link {{ fwbold }}" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
             {% if post.fixtop == true %}
             <img src="/assets/piggy.svg" class="float-end" title="该课题已置顶">
@@ -26,3 +26,4 @@
     </li>
     {% endfor %}
 </ul>
+<!-- {{ post.date | date: "%m/%d/%Y" }} -->
